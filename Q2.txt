@@ -1,0 +1,22 @@
+JAVASCRIPT
+
+Objects in JAVASCRIPT:-
+
+-Objects are the building blocks in JAVASCRIPT.
+-It plays a vital role in language functionality.
+-It helps in creating efficient applications.
+-It allows us to store a collection of data, which contains key-value pairs, where the key is always a string (or a symbol) and the value can be of any data type.
+-Key-value pair allows developers to create flexible, complex and dynamic data structures.
+
+Internal Representation of Objects in JAVASCRIPT:-
+
+-objects are  collections of properties, where each property is associated with a string name or symbol, and a value, where keys are mapped to values.
+-JavaScript performs a hash lookup to retrieve the related value, whenever a user tries to access a property .
+-This helps in quick and efficient retrieval of values, even from objects with numerous properties.
+
+Common ways to work with JAVASCRIPT objects are:
+1. Creation of Objects
+2. Accessing properties
+3. Modification of properties
+4. Enumeration of properties
+5. Addition and Deletion of Properties

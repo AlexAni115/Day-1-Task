@@ -1,0 +1,23 @@
+Difference between HTTP.1 vs HTTP.2
+
+HTTP:
+  - Hypertext transfer protocol.
+  - It was used to send information from browser to server.
+  - First usable version was created in 1997.
+
+HTTP 1 :-
+1. Compared to HTTP2, it is slower .
+2. It loads the resources one after another. So if one resource cannot be loaded it will block the other one.
+3. Compresses messages to make them smaller, and speeds up the performance
+4. It doesn't have a push content, so information is sent to the client only if data is requested.
+5. Uses plain text for communication
+6. opens a new connection for each request
+
+HTTP 2 :-
+1. Faster as compared to HTTP 1
+2. It allows multiple requests to be sent and received simultaneously, by splitting data into binary code messages
+3. Uses HPACK to compress data by eliminating redundant information in Header packets.
+4. It has push content which allows in sending data before a client requests.
+5. Uses Binary protocol.
+6. It supports persistent connection, which reduces latency.
+
